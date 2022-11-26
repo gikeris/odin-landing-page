@@ -16,7 +16,18 @@ header > img{
 }
 header{
     display: flex;
+    justify-content: flex-end;
+}
+header > img{
+    margin-right: auto;
+}
+.navigation{
+    display: flex;
     flex-direction: row;
+    list-style: none;
+   
+    align-items: center;
     justify-content: space-between;
-    
+    background-color: green;
+    margin: 0;
 }
