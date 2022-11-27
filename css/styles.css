@@ -25,9 +25,10 @@ header > img{
     display: flex;
     flex-direction: row;
     list-style: none;
-   
+    text-decoration: none;
     align-items: center;
     justify-content: space-between;
     background-color: green;
     margin: 0;
+
 }
