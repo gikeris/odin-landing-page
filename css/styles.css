@@ -11,24 +11,23 @@ h1{
     color: #F9FAF8;
 }
 
-header > img{
+.logo{
     width: 100px;
+    margin-right: auto;
 }
 header{
     display: flex;
     justify-content: flex-end;
 }
-header > img{
-    margin-right: auto;
-}
-.navigation{
+    
+nav{
     display: flex;
     flex-direction: row;
     list-style: none;
-    text-decoration: none;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
     background-color: green;
-    margin: 0;
+    margin-right: 100px;
 
 }
