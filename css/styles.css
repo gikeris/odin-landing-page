@@ -9,18 +9,26 @@ button{
     border: none;
     color: white;
     border-radius: 5px;
-    padding: 6px 32px;
+    padding: 10px 40px;
     
 }
-h1{
+.left{
+    background-color: red;
+    width: 45%;
+}
+
+.left h1{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
-
 .logo{
     width: 100px;
     margin-right: auto;
+}
+.right{
+   display: flex;
+    background-color: green;
 }
 header{
     display: flex;
@@ -34,7 +42,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    margin-right: 400px;
+  
 
 }
 nav > a{
@@ -44,5 +52,15 @@ nav > a{
 }
 main{
     display: flex;
-    gap: 100px;
+    gap: 10px;
+    justify-content: center;
+    
+}
+main p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
