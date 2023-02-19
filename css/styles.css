@@ -1,9 +1,16 @@
 body{
     background-color: #1F2937;
     color: white;
+   padding: 0 200px 0 200px;
 }
-a{
-    color: grey;
+
+button{
+    background-color: #3382f6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 32px;
+    
 }
 h1{
     font-size: 48px;
@@ -27,7 +34,15 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: green;
-    margin-right: 100px;
+    margin-right: 400px;
 
+}
+nav > a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    gap: 100px;
 }
