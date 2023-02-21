@@ -1,7 +1,7 @@
 body{
     background-color: #1F2937;
     color: white;
-   padding: 0 200px 0 200px;
+    padding: 0 200px 0 200px;
 }
 
 button{
@@ -13,8 +13,9 @@ button{
     
 }
 .left{
-    background-color: red;
-    width: 45%;
+ 
+    width: 600px;
+
 }
 
 .left h1{
@@ -33,6 +34,8 @@ button{
 header{
     display: flex;
     justify-content: flex-end;
+    margin-left: 125px;
+    margin-right: 125px;
 }
     
 nav{
@@ -54,6 +57,7 @@ main{
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 100px;
     
 }
 main p{
@@ -63,4 +67,8 @@ main p{
 footer{
     display: flex;
     justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  
 }
